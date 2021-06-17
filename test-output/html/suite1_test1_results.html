@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - NopCommerce TopMenu and Computer Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>NopCommerce TopMenu and Computer Test</h1>
+<p>
+  Test duration: 105.265s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.computer.TestSuite</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductArrangeInReverseAlphabeticalOrder
+      </td>
+  <td class="duration">
+    26.848s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        clicking on computer linkBy.xpath: //div[@class='header-menu']/ul[1]/li[1]/a<br>
+                                clicking on desktop linkBy.xpath: //ul[@class='sublist']/li[1]/a<br>
+                                Select sort by Z to ABy.id: products-orderby<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductArrangeInReverseAlphabeticalOrderThu_Jun_17_17_45_21_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductArrangeInReverseAlphabeticalOrderThu_Jun_17_17_45_21_BST_2021.jpg><img src=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductArrangeInReverseAlphabeticalOrderThu_Jun_17_17_45_21_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#products\-orderby&quot;}<br/>
+&nbsp; (Session info: chrome=91.0.4472.106)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-R59LGQ5&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Nehal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: b71b41284e5afb1a588f3d31d5b9b46b<br/>
+*** Element info: {Using=id, value=products-orderby}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)<br />
+              org.openqa.selenium.By$ById.findElement(By.java:188)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              com.nopcommerce.demo.utility.Utility.selectByValueFromDropDown(Utility.java:82)<br />
+              com.nopcommerce.demo.pages.Desktop.selectSortByPositionNameZToA(Desktop.java:22)<br />
+              com.nopcommerce.demo.computer.TestSuite.verifyProductArrangeInReverseAlphabeticalOrder(TestSuite.java:25)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.computer.TestSuite</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    14.292s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        clicking on computer linkBy.xpath: //div[@class='header-menu']/ul[1]/li[1]/a<br>
+                                clicking on desktop linkBy.xpath: //ul[@class='sublist']/li[1]/a<br>
+                                Select sort by A to ZBy.id: products-orderby<br>
+                                Click on Add To Cart ButtonBy.xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/button[1]<br>
+                                Verify the Text, Build Your Own ComputerBy.xpath: //h1[contains(text(),'Build your own computer')]<br>
+                                Selection of Processor AttributeBy.xpath: //select[@id='product_attribute_1']<br>
+                                Selection of Ram AttributeBy.xpath: //select[@id='product_attribute_2']<br>
+                                Selection of HDD AttributeBy.xpath: //input[@id='product_attribute_3_7']<br>
+                                Selection of OS AttributeBy.xpath: //input[@id='product_attribute_4_9']<br>
+                                Selection of Software AttributeBy.xpath: //input[@id='product_attribute_5_12']<br>
+                                Verifying the PriceBy.xpath: //span[@id='price-value-1']<br>
+                                Click on Add to Cart ButtonBy.xpath: //button[@id='add-to-cart-button-1']<br>
+                                Verifying the Text, Product is added to CartBy.xpath: //div[@class='bar-notification success']/p<br>
+                                Close the Bar Cross ButtonBy.xpath: //span[@class='close']<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Jun_17_17_44_38_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Jun_17_17_44_38_BST_2021.jpg><img src=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyProductAddedToShoppingCartSuccessFullyThu_Jun_17_17_44_38_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.homepage.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyPageNavigation
+      </td>
+  <td class="duration">
+    4.284s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        clicking on computer linkBy.xpath: //div[@class='header-menu']/ul[1]/li[1]/a<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyPageNavigationThu_Jun_17_17_45_44_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyPageNavigationThu_Jun_17_17_45_44_BST_2021.jpg><img src=C:\Users\Nehal\IdeaProjects\nopcommerce-HW-1-Week14/test-output/html/verifyPageNavigationThu_Jun_17_17_45_44_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
